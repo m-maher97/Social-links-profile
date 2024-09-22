@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Frontend Mentor | Social links profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #141414;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 1000px;
+      margin: 0;
+      font-family: 'Inter', sans-serif; /* Set font to Inter */
+    }
+
+    .card {
+      background-color: #1F1F1F;
+      border-radius: 10px;
+      padding: 20px;
+      width: fit-content;
+      max-width: 90%;
+      box-sizing: border-box;
+      color: white;
+      text-align: center; 
+    }
+
+    .card a {
+      display: block;
+      margin: 10px 0;
+      color: white;
+      text-decoration: none;
+      background-color: #333333;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+      cursor: pointer;
+      font-weight: 1000;
+    }
+
+    .card a:hover {
+      background-color: #C4F82A;
+      color: #000000;
+    }
+
+    p {
+      color: rgb(167, 168, 168);
+    }
+
+    h2 {
+      color: #C4F82A;
+    }
+    img{
+      border-radius: 50%;
+    }
+    @media (min-width: 1024px) {
+      .card {
+        max-width: 400px; /* Max width for desktop */
+        padding: 40px; /* More padding for larger screens */
+      }
+
+      .card img {
+        width: 150px; /* Larger image for desktop */
+        height: 150px;
+      }
+
+      .card a {
+        padding: 15px;
+        font-size: 1.1rem; /* Larger buttons for desktop */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://d2pi0n2fm836iz.cloudfront.net/595686/0922202404365266ef9ee4d0f14.jpg" alt="avatar">
+    <h1>Jessica Randall</h1>
+    <h2>London, United Kingdom</h2>
+    <p>"Front-end developer and avid reader."</p>
+    <a href="">GitHub</a>
+    <a href="">Frontend Mentor</a>
+    <a href="">LinkedIn</a>
+    <a href="">Twitter</a>
+    <a href="">Instagram</a>
+  </div>
+</body>
+</html>
